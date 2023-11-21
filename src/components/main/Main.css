@@ -1,0 +1,24 @@
+.Main{
+    max-width: 1550px;
+    height: 100vh;
+    width: 100%;
+    overflow: scroll;
+    position: relative;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Main::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.Main::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    height: 2px;
+    background-color: #f6f1f1;
+}

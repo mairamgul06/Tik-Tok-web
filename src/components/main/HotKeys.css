@@ -1,0 +1,84 @@
+.hotkey {
+    max-width: 1550px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.653);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 700;
+}
+
+
+.key-wrap {
+    width: 400px;
+    height: 300px;
+    background: white;
+    box-shadow: 0px 0px 10px 1px rgba(22, 24, 35, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 600px;
+    top: 250px;
+    z-index: 71;
+    padding-top: 2px;
+}
+
+.hotkey-title {
+    font-family: TikTokDisplayFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+    width: 100%;
+    line-height: 22px;
+    text-align: center;
+    color: rgb(22, 24, 35);
+    white-space: nowrap;
+}
+
+.hotkey-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    position: relative;
+
+}
+
+.hotkey-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.hotkey-page {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(22, 24, 35, 0.06);
+    padding-top: 10px;
+}
+
+.key-clear {
+    position: absolute;
+    top: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    right: 5px;
+    width: 28px;
+    height: 28px;
+    background: rgba(22, 24, 35, 0.03);
+}

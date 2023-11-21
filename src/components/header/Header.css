@@ -1,0 +1,208 @@
+.Header {
+    max-width: 1550px;
+    width: 100%;
+    max-height: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 1px rgba(210, 204, 204, 0.634);
+}
+
+.header__logo {
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.header__title {
+    font-size: 30px;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.header__content-last {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+
+}
+
+.header__flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.flex-state {
+    max-width: 1220px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 45px;
+    text-decoration: none;
+    color: black;
+    font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 15px;
+}
+
+.link.active {
+    color: #ff235f;
+    font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    height: 45px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.link:hover {
+    background: #f8f6f6;
+}
+
+.link>p {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+
+.drop__entrance {
+    width: 100px;
+    height: 36px;
+    border: 1px solid #ff235f;
+    background: #ff235f;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 2px;
+    transition: .5s;
+    margin-right: 16px;
+}
+
+.drop__entrance:hover {
+    background: #eb124c;
+    cursor: pointer;
+}
+
+.header-user-page {
+    display: flex;
+    align-items: center;
+}
+.Searchbar {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.searchbar__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar__input {
+    width: 100%;
+    height: 46px;
+    border-radius: 30px 0px 0px 30px;
+    border: none;
+    background: rgba(22, 24, 35, .06);
+    ;
+    outline: none;
+    padding-left: 15px;
+}
+
+.searchbar__input::placeholder {
+    font-size: 16px;
+}
+
+.searchbar__search {
+    border-radius: 0px 30px 30px 0px;
+    outline: none;
+    border: none;
+    background: rgba(22, 24, 35, .06);
+    ;
+    width: 60px;
+    height: 46px;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbar__search:hover {
+    background: rgb(238, 234, 234);
+}
+
+.search__result {
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    box-shadow: 0px 5px 10px 2px #e1dcdc;
+    border-radius: 5px;
+    position: absolute;
+    left: 540px;
+    display: flex;
+    top: 60px;
+    z-index: 900;
+    flex-direction: column;
+    overflow: scroll;
+    list-style-type: none;
+}
+
+.search__result::-webkit-scrollbar {
+    width: 1px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+
+.search__result::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.link-list {
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(13, 12, 12);
+    padding: 5px;
+
+
+}
+
+.link-list:hover {
+    background: #f8f6f6;
+    cursor: pointer;
+    color: #0f0e0e;
+}

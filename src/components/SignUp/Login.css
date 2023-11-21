@@ -1,0 +1,171 @@
+.Login {
+    max-width: 1550px;
+    width: 100%;
+    height: 100%;
+    background: rgba(130, 113, 113, 0.018);
+    position: fixed;
+    left: 0;
+    top: 0;
+    inset: 0px;
+}
+
+.login__form {
+    position: absolute;
+    left: 500px;
+    top: 80px;
+    z-index: 11;
+    width: 460px;
+    height: 580px;
+    background: white;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.236);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__user {
+    width: 380px;
+    height: 40px;
+    border: 1px solid #e5dfdf;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.login__user-task {
+    padding-left: 80px;
+}
+
+.login__user>img {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.login__pange {
+    padding-left: 10px;
+}
+
+.login__user-subtitle {
+    text-align: center;
+    font-size: 11px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.login__user-subtitle>a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.login__user-subtitle>a:hover {
+    text-decoration: underline;
+}
+
+.login__user-text {
+    color: #0e0d0d;
+    border-top: 1px solid #e5dfdf;
+}
+
+.login-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-registor {
+    color: #eb124c;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.login-registor:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login__user-text>a:hover {
+    text-decoration: underline;
+}
+
+.login__user-image {
+    position: absolute;
+    top: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 8;
+    right: 24px;
+    width: 28px;
+    height: 28px;
+    background: rgba(22, 24, 35, 0.03);
+
+}
+
+.login__user-image:hover {
+    cursor: pointer;
+    color: #e3dbdb;
+}
+
+.login__blog {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+    border-radius: 0px 0px 40px 40px;
+
+}
+
+.login__fixed {
+    width: 100%;
+    height: 60px;
+    background: white;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.login__app {
+    overflow: scroll;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.login__app::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.login__app::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #eee4e4;
+}
+
+.login__link {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.login-title {
+    color: rgb(22, 24, 35);
+    font-family: TikTokDisplayFont;
+    font-size: 32px;
+    margin: 16px auto;
+    font-weight: bold;
+    text-align: center;
+}
